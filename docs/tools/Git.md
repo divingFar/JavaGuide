@@ -142,7 +142,7 @@ Git 有三种状态，你的文件可能处于其中之一：
 4. **提交更新:** `git commit -m "代码提交信息"` （每次准备提交前，先用 `git status` 看下，是不是都已暂存起来了， 然后再运行提交命令 `git commit`）
 5. **跳过使用暂存区域更新的方式** : `git commit -a -m "代码提交信息"`。 `git commit` 加上 `-a` 选项，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 `git add` 步骤。
 6. **移除文件** ：`git rm filename`  （从暂存区域移除，然后提交。）
-7. **对文件重命名** ：`git mv README1.md README`(这个命令相当于`mv README1.md README`、`git rm README1.md`、`git add README` 这三条命令的集合)
+7. **对文件重命名** ：`git mv README.md README`(这个命令相当于`mv README.md README`、`git rm README.md`、`git add README` 这三条命令的集合)
 
 ### 一个好的 Git 提交消息
 一个好的 Git 提交消息如下：
